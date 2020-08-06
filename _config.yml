@@ -1,44 +1,76 @@
 # Site settings
 title: DALI 2016 - Data Learning and Inference
-venue: Sestri Levante, Italy
-permalink: "/:title.html"
 banner: sestri.jpeg
+permalink: "/:categories/:title.html"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: dali
+
+baseurl: "/dali2016" # the subpath of your site, e.g. /blog/
+url: "http://dalimeeting.org" # the base hostname & protocol for your site
+twitter_username: 
+github_username:  dalimeeting
+author:
+  name: DALI
+  
+ghub:
+  edit: true
+  repository: dali2016
+
 conference:
+  full_name: Data Learning and Inference
+  name: Data Learning and Inference
+  short_name: DALI
+  year: 2016
+  venue: Sestri Levante, Italy
   hosts:
   general:
-  - name: Thomas Hofmann
+  - given: Thomas
+    family: Hofmann
     url: "http://www.da.inf.ethz.ch/people/ThomasHofmann/"
     institute: ETH Zurich
   workshop:
-  - name: Neil Lawrence
+  - given: Neil D.
+    family: Lawrence
     url: "http://inverseprobability.com"
     institute: University of Sheffield
   symposium:
-  - name: Zoubin Ghaharamani
+  - given: Zoubin
+    family: Ghaharamani
     url: "http://mlg.eng.cam.ac.uk/zoubin/"
     institute: University of Cambridge
   local:
-  - name: Lorenzo Rosasco
+  - given: Lorenzo
+    family: Rosasco
     url: "http://web.mit.edu/lrosasco/www/"
     institute: University of Genova and MIT
   assistants:
-  - name: Carlo Ciliberto
+  - given: Carlo
+    family: Ciliberto
     url: "https://it.linkedin.com/in/carlo-ciliberto-174a98105"
     institute: IIT and MIT
-  - name: Sabrina Nepozitek
+  - given: Sabrina
+    family: Nepozitek
     url: "http://www.da.inf.ethz.ch/people/SabrinaNepozitek/"
     institute: ETH Zurich
   steering:
-  - name: Zoubin Ghaharamani
+  - given: Zoubin
+    family: Ghaharamani
     url: "http://mlg.eng.cam.ac.uk/zoubin/"
     institute: University of Cambridge
-  - name: Thomas Hofmann
+  - given: Thomas
+    family: Hofmann
     url: "http://www.da.inf.ethz.ch/people/ThomasHofmann/"
     institute: ETH Zurich
-  - name: Neil Lawrence
+  - given: Neil
+    family: Lawrence
     url: "http://inverseprobability.com"
     institute: University of Sheffield
-  - name: Bernhard Schölkopf (chair)
+  - given: Bernhard
+    family: Schölkopf (chair)
     url: "http://ei.is.tuebingen.mpg.de/person/bs"
     institute: MPI Tübingen
   name: DALI 2016 - Data Learning and Inference
