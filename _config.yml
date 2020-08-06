@@ -21,11 +21,17 @@ ghub:
   repository: dali2016
 
 conference:
+  draft: False # set to True if the programme is draft only.
   full_name: Data Learning and Inference
   name: Data Learning and Inference
   short_name: DALI
   year: 2016
-  venue: Sestri Levante, Italy
+  venue:
+  location: Sestri Levante, Italy
+  dates:
+  - 2016-03-30
+  - 2016-03-31
+  - 2016-04-01
   hosts:
   general:
   - given: Thomas
@@ -70,18 +76,10 @@ conference:
     url: "http://inverseprobability.com"
     institute: University of Sheffield
   - given: Bernhard
-    family: Schölkopf (chair)
+    family: Schölkopf
+    positon: Chair
     url: "http://ei.is.tuebingen.mpg.de/person/bs"
     institute: MPI Tübingen
-  name: DALI 2016 - Data Learning and Inference
-  location: Sestri Levante, Italy
-  year: 2016
-  month: March
-  dates:
-  - 2016-03-30
-  - 2016-03-31
-  - 2016-04-01
-  draft: False # set to True if the programme is draft only.
   sponsors:
   - name: Max-Planck-ETH Center for Learning Systems
     url: "http://learning-systems.org/"
