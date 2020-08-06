@@ -21,7 +21,7 @@ ghub:
   repository: dali2016
 
 conference:
-  draft: False # set to True if the programme is draft only.
+  draft: false # set to True if the programme is draft only.
   instance: 2nd
   full_name: Data Learning and Inference
   name: Data Learning and Inference
