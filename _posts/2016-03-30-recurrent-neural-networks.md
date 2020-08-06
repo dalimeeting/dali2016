@@ -5,34 +5,54 @@ organizer_url:
 categories:
 - dali2016
 organizers:
-- firstname: Sepp
-  lastname: Hochreiter
+- given: Sepp
+  family: Hochreiter
   url: http://www.bioinf.jku.at/people/hochreiter/
   institute: "Institute of Bioinformatics, Johannes Kepler University Linz"
-- firstname: Alex
-  lastname: Graves
+- given: Alex
+  family: Graves
   url: http://www.cs.toronto.edu/~graves/
   institute: "Google DeepMind"
 room: "Sala Oleandro"
 talks:
 - title: "Introduction"
-  speaker: "Sepp Hochreiter, Alex Graves"
+  author: 
+  - given: Sepp 
+    family: Hochreiter
+    url: http://www.bioinf.jku.at/people/hochreiter/
+    institute: "Institute of Bioinformatics, Johannes Kepler University Linz"
+  - given: Alex 
+    family: Graves
+    url: http://www.cs.toronto.edu/~graves/
+    institute: "Google DeepMind"
   start: "09:30"
   end: "09:45"
 - title: "How to learn a program"
-  speaker: "Jürgen Schmidhuber, IDSIA"
+  author: 
+  - given: Jürgen 
+    family: Schmidhuber
+    institute: IDSIA
   start: "09:45"
   end: "10:05"
 - title: "Order Matters: Sequence To Sequence For Sets"
-  speaker: "Samy Bengio, Google Brain"
+  author:
+  - given: Samy
+    family: Bengio
+    institute: Google Brain
   start: "10:05"
   end: "10:25"
 - title: "Language Modeling: Past, Present, and Future"
-  speaker: "Oriol Vinyals, Google Brain"
+  author:
+  - given: Oriol
+    family: Vinyals
+    institute: Google Brain"
   start: "10:25"
   end: "10:45"
 - title: "Speech recognition with recurrent neural networks"
-  speaker: "Andrew Senior, Google Brain"
+  author:
+  - given: Andrew
+    family: Senior
+    institute: Google Brain"
   start: "10:45"
   end: "11:05"
 - title: "Discussion"
@@ -41,15 +61,24 @@ talks:
 - title: ""
   start: "Coffee Break"
 - title: "The Inner and Outer Approaches to the Design of Recursive Neural"
-  speaker: "Pierre Baldi, University of California in Irvine"
+  author:
+  - given: Pierre
+    family: Baldi
+    institute: University of California in Irvine"
   start: "11:45"
   end: "12:05"
 - title: "Trees in the Real Field"
-  speaker: "Marco Gori, University of Siena"
+  author:
+  - given: Marco
+    family: Gori
+    institute: University of Siena"
   start: "12:05"
   end: "12:25"
 - title: "TBA"
-  speaker: "Paolo Frasconi, Università degli Studi di Firenze"
+  author:
+  - given: Paolo
+    family: Frasconi
+    institute: Università degli Studi di Firenze"
   start: "12:25"
   end: "12:45"
 - title: "Discussion"
@@ -58,19 +87,31 @@ talks:
 - title: ""
   start: "Lunch and Afternoon Activities"
 - title: "Adaptive Computation Time for Recurrent Neural Networks"
-  speaker: "Alex Graves, Google DeepMind"
+  author:
+  - given: Alex
+    family: Graves
+    institute: Google DeepMind"
   start: "18:00"
   end: "18:20"
 - title: "Attend, Infer, Repeat: Fast Scene Understanding with Generative Models and Recurrent Neural Networks"
-  speaker: "Ali Eslami, Google DeepMind"
+  author:
+  - given: Ali
+    family: Eslami
+    institute: Google DeepMind"
   start: "18:20"
   end: "18:40"
 - title: "Pixel Recurrent Neural Networks"
-  speaker: "Nal Kalchbrenner, Google DeepMind"
+  author:
+  - given: Nal
+    family: Kalchbrenner
+    institute: Google DeepMind"
   start: "18:40"
   end: "19:00"
 - title: "Importance Weights for RNNs"
-  speaker: "Sepp Hochreiter, Johannes Kepler University Linz"
+  author:
+  - given: Sepp
+    family: Hochreiter
+    institute: Johannes Kepler University Linz
   start: "19:00"
   end: "19:20"
 - title: "Discussion"
@@ -83,11 +124,11 @@ speakers:
 - Samy Bengio
 - Ali Eslami
 - Paolo Frasconi
-- Marco	Gori
+- Marco    Gori
 - Alex Graves
 - Sepp Hochreiter
 - Nal Kalchbrenner
 - Jürgen Schmidhuber
 - Andrew Senior
-- Oriol	Vinyals
+- Oriol    Vinyals
 ---
