@@ -22,7 +22,8 @@ ghub:
 
 conference:
   draft: false # set to True if the programme is draft only.
-  instance: 2nd
+  instance: Second
+  styling: Workshop on
   full_name: Data Learning and Inference
   name: Data Learning and Inference
   short_name: DALI
@@ -35,53 +36,60 @@ conference:
   - 2016-03-31
   - 2016-04-01
   hosts:
-  general:
-  - given: Thomas
-    family: Hofmann
-    url: "http://www.da.inf.ethz.ch/people/ThomasHofmann/"
-    institute: ETH Zurich
-  workshop:
-  - given: Neil D.
-    family: Lawrence
-    url: "http://inverseprobability.com"
-    institute: University of Sheffield
-  symposium:
-  - given: Zoubin
-    family: Ghaharamani
-    url: "http://mlg.eng.cam.ac.uk/zoubin/"
-    institute: University of Cambridge
-  local:
-  - given: Lorenzo
-    family: Rosasco
-    url: "http://web.mit.edu/lrosasco/www/"
-    institute: University of Genova and MIT
-  assistants:
-  - given: Carlo
-    family: Ciliberto
-    url: "https://it.linkedin.com/in/carlo-ciliberto-174a98105"
-    institute: IIT and MIT
-  - given: Sabrina
-    family: Nepozitek
-    url: "http://www.da.inf.ethz.ch/people/SabrinaNepozitek/"
-    institute: ETH Zurich
-  steering:
-  - given: Zoubin
-    family: Ghaharamani
-    url: "http://mlg.eng.cam.ac.uk/zoubin/"
-    institute: University of Cambridge
-  - given: Thomas
-    family: Hofmann
-    url: "http://www.da.inf.ethz.ch/people/ThomasHofmann/"
-    institute: ETH Zurich
-  - given: Neil
-    family: Lawrence
-    url: "http://inverseprobability.com"
-    institute: University of Sheffield
-  - given: Bernhard
-    family: Schölkopf
-    positon: Chair
-    url: "http://ei.is.tuebingen.mpg.de/person/bs"
-    institute: MPI Tübingen
+  chairs:
+  - type: General Chair
+    people:
+    - given: Thomas
+      family: Hofmann
+      url: "http://www.da.inf.ethz.ch/people/ThomasHofmann/"
+      institute: ETH Zurich
+  - type: Workshop Chair
+    people:
+    - given: Neil D.
+      family: Lawrence
+      url: "http://inverseprobability.com"
+      institute: University of Sheffield
+  - type: Symposium Chair
+    people:
+    - given: Zoubin
+      family: Ghaharamani
+      url: "http://mlg.eng.cam.ac.uk/zoubin/"
+      institute: University of Cambridge
+    type: Local Chair
+    people:
+    - given: Lorenzo
+      family: Rosasco
+      url: "http://web.mit.edu/lrosasco/www/"
+      institute: University of Genova and MIT
+  - type: Assistants
+    people: 
+    - given: Carlo
+      family: Ciliberto
+      url: "https://it.linkedin.com/in/carlo-ciliberto-174a98105"
+      institute: IIT and MIT
+    - given: Sabrina
+      family: Nepozitek
+      url: "http://www.da.inf.ethz.ch/people/SabrinaNepozitek/"
+      institute: ETH Zurich
+  - type: Steering Committee
+    people:
+    - given: Zoubin
+      family: Ghaharamani
+      url: "http://mlg.eng.cam.ac.uk/zoubin/"
+      institute: University of Cambridge
+    - given: Thomas
+      family: Hofmann
+      url: "http://www.da.inf.ethz.ch/people/ThomasHofmann/"
+      institute: ETH Zurich
+    - given: Neil D.
+      family: Lawrence
+      url: "http://inverseprobability.com"
+      institute: University of Sheffield
+    - given: Bernhard
+      family: Schölkopf
+      positon: Chair
+      url: "http://ei.is.tuebingen.mpg.de/person/bs"
+      institute: MPI Tübingen
   sponsors:
   - name: Max-Planck-ETH Center for Learning Systems
     url: "http://learning-systems.org/"
